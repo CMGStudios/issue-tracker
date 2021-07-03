@@ -16,4 +16,6 @@ assignees: ''
 
 **Additional context**
 
+**Any Texture Packs (if so list)**
+
 **Perm ID**
