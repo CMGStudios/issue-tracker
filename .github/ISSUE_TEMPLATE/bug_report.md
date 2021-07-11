@@ -10,7 +10,7 @@ assignees: ''
 
 **Steps to reproduce**
 
-**Expected behavior**
+**Expected behaviour**
 
 **Screenshots/Video**
 
