@@ -48,7 +48,7 @@ body:
     attributes:
       label: CMG User ID
       description: Your CMG account user ID (/getmyid)
-      placeholder: 13
+      placeholder: "13"
     validations:
       required: true
       
