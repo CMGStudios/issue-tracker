@@ -1,0 +1,17 @@
+name: Bug Report V2
+description: File a bug report
+title: "[Bug]: "
+labels: [bug, triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: Title of the bug report.
+      placeholder: Title
+    validations:
+      required: false
