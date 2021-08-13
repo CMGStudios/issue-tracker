@@ -33,6 +33,10 @@ body:
     attributes:
       label: Steps to reproduce
       description: Steps to reproduce the issue.
+      placeholder: |
+          1. Run this command...
+          2. Do this animation...
+          2. Press this key..
     validations:
       required: true
   - type: input
