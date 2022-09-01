@@ -18,3 +18,13 @@ jobs:
       with:
         project: 'https://github.com/orgs/CMGStudios/projects/2'
         column_name: 'Needs triage'
+  assign_central_project:
+    runs-on: ubuntu-latest
+    name: Assign to Central Project
+    steps:
+    - name: Assign NEW issues and NEW pull requests to project 2
+      uses: srggrs/assign-one-project-github-action@1.2.1
+      if: github.event.action == 'opened'
+      with:
+        project: 'https://github.com/orgs/CMGStudios/projects/2'
+        column_name: 'Bug Reports'
